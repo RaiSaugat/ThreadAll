@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:id="@+id/titleTeam"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/titlePoint"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/titleTeam"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/imgPath"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/titlePoint"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/logo"
+        android:layout_toRightOf="@+id/imgPath"
+        android:src="@mipmap/ic_launcher"/>
+</RelativeLayout>
